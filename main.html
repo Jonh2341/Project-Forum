@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <aside class="cookies-agreement">
+      <p>Поки ви знаходитесь на нашому сайті та читаєте новини, ми використовуємо ваші кукіс. Дуже сподіваємось, що ви не проти.</p>
+      <button class="button cookies-button" type="button">Окей, продовжуйте</button>
+    </aside>
+    <div id="container">
+      <img src="img/upward-arrow.png" alt="" class="arrow-up" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <header id="header">
+        <div id="title-wrap">
+          <img src="img/world.png" alt="icon" id="icon" />
+          <h1 id="title" class="theme-changer">Search&Learn</h1>
+        </div>
+        <div class="theme-wrap">
+          <button type="button" class="button-theme white-Btn">white</button>
+          <button type="button" class="button-theme black-Btn">black</button>
+        </div>
+      </header>
+      <main id="main">
+        <div id="left-side-img"></div>
+        <section id="state-list">
+          <span id="main-title">filter</span>
+          <div class="state-block">
+            <div class="state-img first-img-of-state">
+              <a href="football.html" class="title-of-state">Ronaldo at 39y.o</a>
+            </div>
+            <b class="bold-text">#Football #Portugal #Poland #Striker #GOAT #BicycleKick #Euro</b>
+          </div>
+          <div class="state-block">
+            <div class="state-img second-img-of-state">
+              <a href="space.html" class="title-of-state">Nature of Stars</a>
+            </div>
+            <b class="bold-text">#Space #Stars #Planet #Galactic #Sun #Moon</b>
+          </div>
+          <div class="state-block">
+            <div class="state-img three-img-of-state">
+              <a href="build.html" class="title-of-state">House's from container</a>
+            </div>
+            <b class="bold-text">#Build #Destroy #Home #Kitchen #Bathroom #LeavingRoom</b>
+          </div>
+          <div class="state-block">
+            <div class="state-img last-img-of-state">
+              <a href="camping.html" class="title-of-state">how to make a fire?</a>
+            </div>
+            <b class="bold-text">#Camp #Camping #Cross #Forest #Chill #Survival</b>
+          </div>
+          
+        </section>
+        <div id="right-side-img"></div>
+      </main>
+      <footer id="footer">
+        <label for="" class="line"></label>
+        <ul class="list-ul">
+          <li class="list-li">
+            <a href="https://jonh2341.github.io/Project-portfolio/" class="list-text">About as</a>
+          </li>
+          <li class="list-li">
+            <a href="https://github.com/Jonh2341" class="list-text">Contact</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

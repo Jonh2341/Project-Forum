@@ -1,0 +1,407 @@
+@media screen and (min-width: 662px) {
+  .cookies-agreement {
+    background-color: #fdeacd;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2);
+  }
+  .cookies-agreement {
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px 20px;
+  }
+  .cookies-agreement .button {
+    margin-left: auto;
+  }
+  .cookies-agreement-closed {
+    display: none;
+  }
+  .button {
+    font-size: 12px;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 2px;
+  }
+  .cookies-agreement-closed {
+    display: none;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    margin-bottom: 10px;
+  }
+
+  #title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #icon {
+    width: 59px;
+    height: 52px;
+  }
+
+  #title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .theme-wrap {
+    position: absolute;
+    height: 50px;
+    width: 149px;
+    right: 50px;
+    display: flex;
+  }
+
+  .button-theme {
+    width: 50%;
+    height: 100%;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .button-theme:last-child {
+    background-color: black;
+    color: white;
+  }
+
+  #main {
+    width: 100%;
+    height: 1090px;
+    display: flex;
+  }
+
+  #left-side-img {
+    width: 18%;
+    background-image: url("../img/main-img-left-side.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #state-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64%;
+    height: inherit;
+    overflow-y: scroll;
+    padding: 32px;
+  }
+
+  #main-title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+  .state-block {
+    display: flex;
+    width: 85%;
+    min-height: 160px;
+    margin-top: 15px;
+    background-color: #c4c4c4;
+  }
+
+  .title-of-state {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #c4c4c4;
+    cursor: pointer;
+  }
+
+  .bold-text {
+    margin: 15px;
+    flex-wrap: wrap;
+  }
+
+  .state-img {
+    position: relative;
+    min-width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+  }
+
+  .first-img-of-state {
+    background-image: url("../img/football-state-face.avif");
+  }
+  .second-img-of-state {
+    background-image: url("../img/space-header-img.jpg");
+  }
+  .three-img-of-state {
+    background-image: url("../img/build-state-face.jpg");
+  }
+  .last-img-of-state {
+    background-image: url("../img/camping-img.jpg");
+  }
+
+  #right-side-img {
+    width: 18%;
+    background-image: url("../img/main-img-right-side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #footer {
+    background-color: #d9d9d9;
+    height: 329px;
+    width: 100%;
+    display: flex;
+    padding: 27px;
+    flex-direction: column;
+  }
+
+  .line {
+    align-self: center;
+    border: 1px solid black;
+    width: 90%;
+  }
+
+  .list-ul {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  .list-li {
+    list-style-type: disc;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-text {
+    color: black;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  #container {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    margin-bottom: 10px;
+  }
+
+  #title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #icon {
+    width: 59px;
+    height: 52px;
+  }
+
+  #title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .theme-wrap {
+    position: absolute;
+    height: 40px;
+    width: 89px;
+    right: 10px;
+    top: 5px;
+    display: flex;
+  }
+
+  .button-theme {
+    width: 50%;
+    height: 100%;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .button-theme:last-child {
+    background-color: black;
+    color: white;
+  }
+
+  #main {
+    width: 100%;
+    height: 1090px;
+    display: flex;
+  }
+
+  #left-side-img {
+    width: 10%;
+    background-image: url("../img/main-img-left-side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #state-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: inherit;
+    overflow-y: scroll;
+    padding: 32px 0px 0px 0px;
+  }
+
+  #main-title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+  .state-block {
+    display: flex;
+    width: 95%;
+    min-height: 130px;
+    margin-top: 15px;
+    background-color: #c4c4c4;
+  }
+
+  .title-of-state {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #c4c4c4;
+    cursor: pointer;
+  }
+
+  .bold-text {
+    margin: 10px;
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .state-img {
+    position: relative;
+    min-width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .first-img-of-state {
+    background-image: url("../img/football-state-face.avif");
+  }
+  .second-img-of-state {
+    background-image: url("../img/space-header-img.jpg");
+  }
+  .three-img-of-state {
+    background-image: url("../img/build-state-face.jpg");
+  }
+  .last-img-of-state {
+    background-image: url("../img/camping-img.jpg");
+  }
+
+  #right-side-img {
+    width: 10%;
+    background-image: url("../img/main-img-right-side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #footer {
+    background-color: #d9d9d9;
+    height: 329px;
+    width: 100%;
+    display: flex;
+    padding: 27px;
+    flex-direction: column;
+  }
+
+  .line {
+    align-self: center;
+    border: 1px solid black;
+    width: 90%;
+  }
+
+  .list-ul {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+
+  .list-li {
+    list-style-type: disc;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-text {
+    color: black;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
