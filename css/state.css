@@ -51,8 +51,7 @@
   }
   .comment-list {
     margin-top: 20px;
-    list-style: none;
-    height: inherit;
+    height: 207px;
     overflow-y: scroll;
   }
   .user-comment {

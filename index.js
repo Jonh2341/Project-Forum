@@ -1,7 +1,7 @@
 let themeContainer = document.querySelector('#container');
 let overlay = document.createElement('div');
-overlay.classList.add('overlay');
-document.body.appendChild(overlay);
+// overlay.classList.add('overlay');
+// document.body.appendChild(overlay);
 const cookies = document.querySelector('.cookies-agreement');
 const cookiesBtn = document.querySelector('.cookies-button');
 const whiteBtn = document.querySelector('.white-Btn');
@@ -11,17 +11,17 @@ let commentForm = document.querySelector('.comment-form');
 let commentList = document.querySelector('.comment-list');
 let submitButton = document.querySelector('.submit-button');
 
-cookiesBtn.addEventListener('click', function() {
-    overlay.classList.remove('overlay');
-    cookies.classList.add('cookies-agreement-closed');
+// cookiesBtn.addEventListener('click', function() {
+//     overlay.classList.remove('overlay');
+//     cookies.classList.add('cookies-agreement-closed');
 
-    localStorage.setItem('cookiesAccepted', 'true');
-});
+//     localStorage.setItem('cookiesAccepted', 'true');
+// });
 
-if (localStorage.getItem('cookiesAccepted') === 'true') {
-    overlay.classList.remove('overlay'); 
-    cookies.classList.add('cookies-agreement-closed');
-}
+// if (localStorage.getItem('cookiesAccepted') === 'true') {
+//     overlay.classList.remove('overlay'); 
+//     cookies.classList.add('cookies-agreement-closed');
+// }
 
 function commentInit(evt) {
     evt.preventDefault();
