@@ -1,5 +1,5 @@
 let themeContainer = document.querySelector('#container');
-let overlay = document.createElement('div');
+// let overlay = document.createElement('div');
 // overlay.classList.add('overlay');
 // document.body.appendChild(overlay);
 const cookies = document.querySelector('.cookies-agreement');
@@ -11,17 +11,15 @@ let commentForm = document.querySelector('.comment-form');
 let commentList = document.querySelector('.comment-list');
 let submitButton = document.querySelector('.submit-button');
 
-// cookiesBtn.addEventListener('click', function() {
-//     overlay.classList.remove('overlay');
-//     cookies.classList.add('cookies-agreement-closed');
+whiteBtn.addEventListener('click', function() {
+    themeContainer.classList.remove('whiteTheme');
+    themeContainer.classList.add('blackTheme');
+});
 
-//     localStorage.setItem('cookiesAccepted', 'true');
-// });
-
-// if (localStorage.getItem('cookiesAccepted') === 'true') {
-//     overlay.classList.remove('overlay'); 
-//     cookies.classList.add('cookies-agreement-closed');
-// }
+blackBtn.addEventListener('click', function() {
+    themeContainer.classList.remove('blackTheme');
+    themeContainer.classList.add('whiteTheme');
+})
 
 function commentInit(evt) {
     evt.preventDefault();
@@ -34,17 +32,6 @@ function commentInit(evt) {
 
 commentForm.addEventListener('submit', commentInit);
 
-whiteBtn.addEventListener('click', function() {
-    themeContainer.classList.remove('whiteTheme');
-    themeContainer.classList.add('blackTheme');
-});
-
-blackBtn.addEventListener('click', function() {
-    themeContainer.classList.remove('blackTheme');
-    themeContainer.classList.add('whiteTheme');
-})
-
-
 window.addEventListener('scroll', function() {
     if (window.scrollY > 200) {
         arrow.style.display = "block";
@@ -52,3 +39,15 @@ window.addEventListener('scroll', function() {
         arrow.style.display = "none";
     }
 });  
+
+// cookiesBtn.addEventListener('click', function() {
+//     document.body.remove(overlay);
+//     cookies.classList.add('cookies-agreement-closed');
+
+//     localStorage.setItem('cookiesAccepted', 'true');
+// });
+
+// if (localStorage.getItem('cookiesAccepted') === 'true') {
+//     overlay.classList.remove('overlay'); 
+//     cookies.classList.add('cookies-agreement-closed');
+// }
