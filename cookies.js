@@ -1,3 +1,4 @@
+// cookies code
 let overlay = document.createElement('div');
 overlay.classList.add('overlay');
 document.body.appendChild(overlay);
