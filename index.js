@@ -11,7 +11,6 @@ let commentForm = document.querySelector('.comment-form');
 let commentList = document.querySelector('.comment-list');
 let submitButton = document.querySelector('.submit-button');
 
-
 // theme code
 whiteBtn.addEventListener('click', function() {
     themeContainer.classList.remove('whiteTheme');
@@ -22,7 +21,6 @@ blackBtn.addEventListener('click', function() {
     themeContainer.classList.remove('blackTheme');
     themeContainer.classList.add('whiteTheme');
 })
-
 // comment code
 function commentInit(evt) {
     evt.preventDefault();
