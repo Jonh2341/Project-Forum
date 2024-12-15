@@ -236,6 +236,44 @@
     margin-bottom: 10px;
   }
 
+  .cookies-agreement {
+    background-color: #fdeacd;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2);
+  }
+  .cookies-agreement {
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px 20px;
+  }
+  .cookies-agreement .button {
+    margin-left: auto;
+  }
+  .cookies-agreement-closed {
+    display: none;
+  }
+  .button {
+    font-size: 12px;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 2px;
+  }
+  .cookies-agreement-closed {
+    display: none;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+  }
+
   #title-wrap {
     display: flex;
     flex-direction: column;

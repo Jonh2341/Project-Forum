@@ -1,9 +1,4 @@
 let themeContainer = document.querySelector('#container');
-// let overlay = document.createElement('div');
-// overlay.classList.add('overlay');
-// document.body.appendChild(overlay);
-const cookies = document.querySelector('.cookies-agreement');
-const cookiesBtn = document.querySelector('.cookies-button');
 const whiteBtn = document.querySelector('.white-Btn');
 const blackBtn = document.querySelector('.black-Btn');
 const arrow = document.querySelector('.arrow-up');
@@ -39,15 +34,3 @@ window.addEventListener('scroll', function() {
         arrow.style.display = "none";
     }
 });  
-
-// cookiesBtn.addEventListener('click', function() {
-//     document.body.remove(overlay);
-//     cookies.classList.add('cookies-agreement-closed');
-
-//     localStorage.setItem('cookiesAccepted', 'true');
-// });
-
-// if (localStorage.getItem('cookiesAccepted') === 'true') {
-//     overlay.classList.remove('overlay'); 
-//     cookies.classList.add('cookies-agreement-closed');
-// }
