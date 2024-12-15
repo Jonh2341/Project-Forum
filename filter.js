@@ -14,6 +14,7 @@ let stateInfo = document.querySelector('.last-link');
 btn.addEventListener('click', addMenu);
 header.style.alignItems = 'center';
 function addMenu() {
+    resetDisplay()
     if (list.classList.contains('active')) {
         list.classList.remove('active');
         nav.style.height = 'auto';
@@ -24,8 +25,15 @@ function addMenu() {
     }
 }
 
+function resetDisplay() { 
+    filterEl.forEach(el => { 
+        el.style.display = 'flex';
+    });
+};
+
 // сортуавання новин
 stateNews.addEventListener('click', () => {
+    resetDisplay()
     let filteredElements = Array.from(filterEl).filter(el => 
         el.classList.contains('facts-state') || el.classList.contains('info-state')
     );
@@ -38,6 +46,7 @@ stateNews.addEventListener('click', () => {
 
 // сортуавання фактів
 stateFacts.addEventListener('click', () => {
+    resetDisplay()
     let filteredElements = Array.from(filterEl).filter(el => 
         el.classList.contains('news-state') || el.classList.contains('info-state')
     );
@@ -50,6 +59,7 @@ stateFacts.addEventListener('click', () => {
 
 // сортуавання інформації
 stateInfo.addEventListener('click', () => {
+    resetDisplay()
     let filteredElements = Array.from(filterEl).filter(el => 
         el.classList.contains('news-state') || el.classList.contains('facts-state')
     );
