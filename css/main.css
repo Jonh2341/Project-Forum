@@ -488,6 +488,9 @@ body {
   .first-img-of-state {
     background-image: url("../img/football-state-face.avif");
   }
+  .ballete-img-of-state{
+    background-image: url('../img/ballet.jpg');
+  }
   .second-img-of-state {
     background-image: url("../img/space-header-img.jpg");
   }
