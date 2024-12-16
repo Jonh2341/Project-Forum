@@ -51,16 +51,16 @@ body {
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
-  font-size: 32px;
+  font-size: 24px;
   transition: color 0.3s ease, transform 0.3s ease;
  }
 
  .second-link {
-    top: 60px;
+    top: 40px;
  }
  
  .last-link {
-  top: 120px;
+  top: 80px;
  }
  
  .link:hover {
@@ -254,6 +254,9 @@ body {
 
   .first-img-of-state {
     background-image: url("../img/football-state-face.avif");
+  }
+  .ballete-img-of-state{
+    background-image: url('../img/ballet.jpg');
   }
   .second-img-of-state {
     background-image: url("../img/space-header-img.jpg");

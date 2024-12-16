@@ -64,6 +64,18 @@
     color: #333;
   }
 
+  .ballete-img{
+    background-image: url('../img/ballet.jpg')!important;
+  }
+  .ballete-left{
+    background-image: url('../img/main-img-left-side.jpg')!important;
+  }
+  .ballete-right{
+    background-image: url('../img/main-img-right-side.jpg')!important;
+  }
+  .ballete-header{
+    background-image: none!important;
+  }
   .stars {
     background-image: url("../img/space-header-img.jpg") !important;
   }
@@ -504,6 +516,18 @@
     cursor: pointer;
   }
 
+  .ballete-img{
+    background-image: url('../img/ballet.jpg')!important;
+  }
+  .ballete-left{
+    background-image: url('../img/main-img-left-side.jpg')!important;
+  }
+  .ballete-right{
+    background-image: url('../img/main-img-right-side.jpg')!important;
+  }
+  .ballete-header{
+    background-image: none!important;
+  }
   .stars {
     background-image: url("../img/space-header-img.jpg") !important;
   }

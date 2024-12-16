@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/state.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <img
+        src="img/upward-arrow.png"
+        alt=""
+        class="arrow-up"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      />
+      <header id="header" class="ballete-header">
+        <a href="main.html" class="back-bnt">Back</a>
+        <div id="title-wrap">
+          <img src="img/world.png" alt="icon" id="icon" />
+          <h1 id="title">Search&Learn</h1>
+        </div>
+        <div class="theme-wrap">
+          <button type="button" class="button-theme white-Btn">white</button>
+          <button type="button" class="button-theme black-Btn">black</button>
+        </div>
+      </header>
+      <main id="main">
+        <div id="left-side-img" class="ballete-left"></div>
+        <div class="wrapper-all">
+          <section class="face-side-state">
+            <div class="wrap-image-of-state ballete-img"></div>
+            <div class="right-side-face-state">
+              <b class="autor-state">autor: Material by Federico</b>
+              <div class="wrap-of-face-text">
+                <span class="title-of-wrap-face">Classical dance</span>
+                <span class="paraphraf-of-wrap-face">
+                  Classical dance is an art form in which the main technical
+                  idea is maximum grace, sophistication. correctness and
+                  elegance. The first classical dance is ballet. Ballet
+                  originated in the 15th century in Italy, and later developed
+                  in France.
+                </span>
+              </div>
+              <div class="h-block">
+                <b class="h-element">#Ballete</b>
+                <b class="h-element">#Dance</b>
+                <b class="h-element">#Classic</b>
+                <b class="h-element">#ClassicalDance</b>
+                <b class="h-element">#Culture</b>
+              </div>
+            </div>
+          </section>
+          <section class="section-interesting">
+            <span class="title-interest">Can be interesting:</span>
+            <div class="interest-wrap">
+              <div class="state-block">
+                <div class="state-img first-img-of-state">
+                  <a href="football.html" class="title-of-state"
+                    >Ronaldo at 39y.o</a
+                  >
+                </div>
+                <b class="bold-text"
+                  >#Football #Portugal #Poland #Striker #GOAT #BicycleKick
+                  #Euro</b
+                >
+              </div>
+              <div class="state-block">
+                <div class="state-img three-img-of-state">
+                  <a href="build.html" class="title-of-state"
+                    >House's from container</a
+                  >
+                </div>
+                <b class="bold-text"
+                  >#Build #Destroy #Home #Kitchen #Bathroom</b
+                >
+              </div>
+            </div>
+          </section>
+          <section class="section-comunication">
+            <ul class="comment-list">
+              <li class="user-comment">
+                <a href="" class="a-list"
+                  >@man from the school: it's so cute</a
+                >
+              </li>
+              <li class="user-comment">
+                <a href="" class="a-list"
+                  >@man from the work: I think is boring</a
+                >
+              </li>
+              <li class="user-comment">
+                <a href="" class="a-list">@man from the travel: It's interesting!</a>
+              </li>
+            </ul>
+            <form class="comment-form">
+              <label for="comment-id">
+                <input
+                  type="text"
+                  class="comment-field"
+                  placeholder="Напишіть ваш коментар..."
+                  name="commentField"
+                  required
+                  id="comment-id"
+                />
+              </label>
+              <button type="submit" class="submit-button">Add comment</button>
+            </form>
+          </section>
+        </div>
+        <div id="right-side-img" class="ballete-right"></div>
+      </main>
+      <footer id="footer">
+        <label for="" class="line"></label>
+        <ul class="list-ul">
+          <li class="list-li">
+            <a
+              href="https://jonh2341.github.io/Project-portfolio/"
+              class="list-text"
+              >About as</a
+            >
+          </li>
+          <li class="list-li">
+            <a href="https://github.com/Jonh2341" class="list-text">Contact</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
